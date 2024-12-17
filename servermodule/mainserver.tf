@@ -62,7 +62,7 @@ resource "aws_instance" "terraformproject" {
   root_block_device {
     
     volume_type = "gp3"
-    volume_size = 8
+    volume_size = 10
     delete_on_termination = true
   }
   tags = {
